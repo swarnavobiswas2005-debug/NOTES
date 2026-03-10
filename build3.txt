@@ -1,0 +1,86 @@
+﻿
+> frontend@0.1.0 build
+> next build --webpack
+
+Γû▓ Next.js 16.1.6 (webpack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 19.9s
+  Running TypeScript ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecifi    ed: 
+(Failed to com    
+pile.:String) [],     
+RemoteException
+    + FullyQualifiedEr    
+rorId : NativeComm    
+andError
+ 
+
+.next/types/app/notes/[id]/
+page.ts:36:29
+Type error: Type '{ 
+params: { id: string; }; 
+}' does not satisfy the 
+constraint 'PageProps'.
+  Types of property 
+'params' are incompatible.
+    Type '{ id: string; }' 
+is missing the following 
+properties from type 
+'Promise<any>': then, 
+catch, finally, 
+[Symbol.toStringTag]
+
+[0m [90m 34 |[39m
+ [90m 35 |[39m [90m// 
+Check the prop type of the 
+entry function[39m
+[31m[1m>[22m[39m[90m 
+36 |[39m checkFields[33m<
+[39m[33mDiff[39m[33m<[
+39m[33mPageProps[39m[33m
+,[39m [33mFirstArg[39m[
+33m<[39m[33mTEntry[39m[
+[32m'default'[39m][33m>[
+39m[33m,[39m [32m'defaul
+t'[39m[33m>>[39m()
+ [90m    |[39m           
+                  
+[31m[1m^[22m[39m
+ [90m 37 |[39m
+ [90m 38 |[39m [90m// 
+Check the arguments and 
+return type of the 
+generateMetadata 
+function[39m
+ [90m 39 |[39m 
+[36mif[39m ([32m'generat
+eMetadata'[39m 
+[36min[39m entry) {[0m
+Next.js build worker 
+exited with code: 1 and 
+signal: null
+npm error Lifecycle script 
+`build` failed with error:
+npm error code 1
+npm error path 
+E:\NOTES\frontend
+npm error workspace 
+frontend@0.1.0
+npm error location 
+E:\NOTES\frontend
+npm error command failed
+npm error command C:\WINDOW
+S\system32\cmd.exe /d /s 
+/c next build --webpack

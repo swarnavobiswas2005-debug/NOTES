@@ -1,0 +1,297 @@
+﻿
+> frontend@0.1.0 build
+> next build --webpack
+
+Γû▓ Next.js 16.1.6 (webpack)
+
+  Creating an optimized production build ...
+node.exe : ΓÜá Compiled 
+with warnings in 6.3s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (ΓÜá  
+   Compiled with warning   
+ s in 6.3s:String) [],     
+RemoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+
+../node_modules/@metamask/s
+dk/dist/browser/es/metamask
+-sdk.js
+Module not found: Can't 
+resolve '@react-native-asyn
+c-storage/async-storage' 
+in 'E:\NOTES\node_modules\@
+metamask\sdk\dist\browser\e
+s'
+
+Import trace for requested 
+module:
+../node_modules/@metamask/s
+dk/dist/browser/es/metamask
+-sdk.js
+../node_modules/@wagmi/conn
+ectors/dist/esm/metaMask.js
+../node_modules/@wagmi/conn
+ectors/dist/esm/exports/ind
+ex.js
+../node_modules/wagmi/dist/
+esm/exports/connectors.js
+../node_modules/@rainbow-me
+/rainbowkit/dist/index.js
+./app/upload/page.tsx
+
+Error: Cannot apply 
+unknown utility class 
+`bg-white/5`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+    at ignore-listed frames
+<w> [webpack.cache.PackFile
+CacheStrategy] Skipped not 
+serializable cache item 'Co
+mpilation/modules|E:\NOTES\
+node_modules\next\dist\buil
+d\webpack\loaders\css-loade
+r\src\index.js??ruleSet[1].
+rules[15].oneOf[10].use[2]!
+E:\NOTES\node_modules\next\
+dist\build\webpack\loaders\
+postcss-loader\src\index.js
+??ruleSet[1].rules[15].oneO
+f[10].use[3]!E:\NOTES\front
+end\app\globals.css': No 
+serializer registered for 
+PostCSSSyntaxError
+<w> while serializing webpa
+ck/lib/cache/PackFileCacheS
+trategy.PackContentItems 
+-> 
+webpack/lib/NormalModule 
+-> webpack/lib/ModuleBuildE
+rror -> PostCSSSyntaxError
+Failed to compile.
+
+./app/globals.css:1:1
+Syntax error: tailwindcss: 
+E:\NOTES\frontend\app\globa
+ls.css Cannot apply 
+unknown utility class 
+`bg-white/5`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+
+[1m[31m>[39m[22m[90m 
+1 | [39m[36m@import[39m 
+[36murl[39m[36m([39m[3
+2m'https://fonts.googleapis
+.com/css2?family=Inter:wght
+@300;400;500;600;700;800;90
+0&display=swap'[39m[36m)
+[39m[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | [39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+
+./app/globals.css
+Syntax error: tailwindcss: 
+E:\NOTES\frontend\app\globa
+ls.css Cannot apply 
+unknown utility class 
+`bg-white/5`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective (1:1)
+
+[1m[31m>[39m[22m[90m 
+1 | [39m[36m@import[39m 
+[36murl[39m[36m([39m[3
+2m'https://fonts.googleapis
+.com/css2?family=Inter:wght
+@300;400;500;600;700;800;90
+0&display=swap'[39m[36m)
+[39m[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | [39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+
+    at 
+tryRunOrWebpackError (E:\NO
+TES\node_modules\next\dist\
+compiled\webpack\bundle5.js
+:29:316134)
+    at 
+__webpack_require_module__ 
+(E:\NOTES\node_modules\next
+\dist\compiled\webpack\bund
+le5.js:29:131536)
+    at __nested_webpack_req
+uire_161494__ (E:\NOTES\nod
+e_modules\next\dist\compile
+d\webpack\bundle5.js:29:130
+971)
+    at E:\NOTES\node_module
+s\next\dist\compiled\webpac
+k\bundle5.js:29:131828
+    at symbolIterator (E:\N
+OTES\node_modules\next\dist
+\compiled\neo-async\async.j
+s:1:14444)
+    at done (E:\NOTES\node_
+modules\next\dist\compiled\
+neo-async\async.js:1:14824)
+    at Hook.eval [as 
+callAsync] (eval at create 
+(E:\NOTES\node_modules\next
+\dist\compiled\webpack\bund
+le5.js:14:9224), 
+<anonymous>:15:1)
+    at 
+Hook.CALL_ASYNC_DELEGATE 
+[as _callAsync] (E:\NOTES\n
+ode_modules\next\dist\compi
+led\webpack\bundle5.js:14:6
+378)
+    at E:\NOTES\node_module
+s\next\dist\compiled\webpac
+k\bundle5.js:29:130691
+    at symbolIterator (E:\N
+OTES\node_modules\next\dist
+\compiled\neo-async\async.j
+s:1:14402)
+-- inner error --
+Syntax error: tailwindcss: 
+E:\NOTES\frontend\app\globa
+ls.css Cannot apply 
+unknown utility class 
+`bg-white/5`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective (1:1)
+
+[1m[31m>[39m[22m[90m 
+1 | [39m[36m@import[39m 
+[36murl[39m[36m([39m[3
+2m'https://fonts.googleapis
+.com/css2?family=Inter:wght
+@300;400;500;600;700;800;90
+0&display=swap'[39m[36m)
+[39m[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | [39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+
+    at Object.<anonymous> (
+E:\NOTES\node_modules\next\
+dist\build\webpack\loaders\
+css-loader\src\index.js??ru
+leSet[1].rules[15].oneOf[10
+].use[2]!E:\NOTES\node_modu
+les\next\dist\build\webpack
+\loaders\postcss-loader\src
+\index.js??ruleSet[1].rules
+[15].oneOf[10].use[3]!E:\NO
+TES\frontend\app\globals.cs
+s:1:7)
+    at E:\NOTES\node_module
+s\next\dist\compiled\webpac
+k\bundle5.js:29:962757
+    at Hook.eval [as call] 
+(eval at create (E:\NOTES\n
+ode_modules\next\dist\compi
+led\webpack\bundle5.js:14:9
+002), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE 
+[as _call] (E:\NOTES\node_m
+odules\next\dist\compiled\w
+ebpack\bundle5.js:14:6272)
+    at E:\NOTES\node_module
+s\next\dist\compiled\webpac
+k\bundle5.js:29:131569
+    at 
+tryRunOrWebpackError (E:\NO
+TES\node_modules\next\dist\
+compiled\webpack\bundle5.js
+:29:316088)
+    at 
+__webpack_require_module__ 
+(E:\NOTES\node_modules\next
+\dist\compiled\webpack\bund
+le5.js:29:131536)
+    at __nested_webpack_req
+uire_161494__ (E:\NOTES\nod
+e_modules\next\dist\compile
+d\webpack\bundle5.js:29:130
+971)
+    at E:\NOTES\node_module
+s\next\dist\compiled\webpac
+k\bundle5.js:29:131828
+    at symbolIterator (E:\N
+OTES\node_modules\next\dist
+\compiled\neo-async\async.j
+s:1:14444)
+
+Generated code for E:\NOTES
+\node_modules\next\dist\bui
+ld\webpack\loaders\css-load
+er\src\index.js??ruleSet[1]
+.rules[15].oneOf[10].use[2]
+!E:\NOTES\node_modules\next
+\dist\build\webpack\loaders
+\postcss-loader\src\index.j
+s??ruleSet[1].rules[15].one
+Of[10].use[3]!E:\NOTES\fron
+tend\app\globals.css
+
+Import trace for requested 
+module:
+./app/globals.css
+
+
+> Build failed because of 
+webpack errors
+npm error Lifecycle script 
+`build` failed with error:
+npm error code 1
+npm error path 
+E:\NOTES\frontend
+npm error workspace 
+frontend@0.1.0
+npm error location 
+E:\NOTES\frontend
+npm error command failed
+npm error command C:\WINDOW
+S\system32\cmd.exe /d /s 
+/c next build --webpack

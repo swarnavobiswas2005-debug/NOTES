@@ -1,0 +1,16 @@
+{
+  "name": "notes-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "contracts"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:contracts": "npm run compile --workspace=contracts",
+    "install:all": "npm install"
+  }
+}

@@ -1,0 +1,120 @@
+﻿
+> frontend@0.1.0 build
+> next build --webpack
+
+Γû▓ Next.js 16.1.6 (webpack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 7.0s
+  Running TypeScript ...
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/7) ...
+  Generating static pages using 23 workers (1/7) 
+  Generating static pages using 23 workers (3/7) 
+  Generating static pages using 23 workers (5/7) 
+Γ£ô Generating static pages using 23 workers (7/7) in 672.3ms
+node.exe : [Reown 
+Config] Failed to 
+fetch remote project 
+configuration. Using 
+local/default values. 
+Error: HTTP status 
+code: 403
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : 
+NotSpecified: ([Re    
+own Config] ...tatus c 
+   ode: 403:String) 
+[], R    emoteException
+    + 
+FullyQualifiedErrorI   
+ d : NativeCommandError
+ 
+    at d (E:\NOTES\fron
+tend\.next\server\chunk
+s\8092.js:11:30649)
+    at async e.get (E:\
+NOTES\frontend\.next\se
+rver\chunks\8092.js:11:
+30875)
+    at async Object.fet
+chProjectConfig (E:\NOT
+ES\frontend\.next\serve
+r\chunks\8092.js:10:256
+401)
+    at async Object.fet
+chRemoteFeatures (E:\NO
+TES\frontend\.next\serv
+er\chunks\8092.js:10:22
+4217)
+    at async 
+kv.initialize (E:\NOTES
+\frontend\.next\server\
+chunks\8092.js:10:22901
+3) {
+  [cause]: Response {
+    status: 403,
+    statusText: 
+'Forbidden',
+    headers: Headers {
+      date: 'Mon, 09 
+Mar 2026 19:56:01 GMT',
+      'content-type': 
+'text/plain; 
+charset=UTF-8',
+      
+'content-length': '9',
+      connection: 
+'keep-alive',
+      'cf-ray': 
+'9d9ca3fb187a3a4c-BOM',
+      'access-control-a
+llow-origin': '*',
+      'cache-control': 
+'public, max-age=300, 
+s-maxage=300',
+      vary: 
+'Accept-Encoding',
+      server: 
+'cloudflare',
+      'alt-svc': 
+'h3=":443"; ma=86400'
+    },
+    body: undefined,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: 'https://api.w
+eb3modal.org/appkit/v1/
+config?projectId=REPLAC
+E_WITH_WALLETCONNECT_ID
+&st=appkit&sv=html-core
+-1.7.8'
+  }
+}
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /explore
+Γö£ ╞Æ /notes/[id]
+Γö£ Γùï /upload
+Γöö Γùï /verify
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+
